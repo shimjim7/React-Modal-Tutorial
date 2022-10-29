@@ -1,6 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
+
 function Modal({ setOpenModal }) {
   return (
     <div className="modalBackground">
@@ -15,10 +16,13 @@ function Modal({ setOpenModal }) {
           </button>
         </div>
         <div className="title">
-          <h1>Are You Sure You Want to Continue?</h1>
+          <h1>LOREM IPSUM</h1>
         </div>
         <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
+          <p>ROOM NO: 123<br></br>
+           LOCATION: XYZ<br></br>
+           CAPACITY: ABC<br></br>
+          FACILITIES: PQR</p>
         </div>
         <div className="footer">
           <button
