@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Modal from "./Components/Modal";
 import './App.css';
-import Slider from './Components/npmSlider'
+import Slider from './Components/Slider'
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <><>
-      <Slider />
+      
     </><div className="App">
 
         <button
@@ -23,6 +23,7 @@ function App() {
         >
           Open
         </button>
+        
 
         {modalOpen && <Modal setOpenModal={setModalOpen} />}
       </div></>
