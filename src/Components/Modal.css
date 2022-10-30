@@ -1,7 +1,7 @@
 .modalBackground {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(234, 190, 238);
+  background-color: rgb(240, 236, 243);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -20,8 +20,8 @@
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  backdrop-filter: "blur(10px)"; 
-  background-image: linear-gradient(to top, #9036a1,#c579c5,#d59ee2);
+  backdrop-filter: "blur(106rem)"; 
+  background-color:#ccc0d3;
   /* To cover the entire screen */
   background-size:cover;
   /* Image position */
@@ -33,10 +33,10 @@
 
 .modalContainer .title {
   display: inline-block;
-  text-align: left;
-  color: azure;
-  font-size: 30px;
-  margin-top: -98px;
+  text-align: center;
+  color: rgb(68, 42, 83);
+  font-size: 1.6rem;
+  margin-top: -2rem;
  
 }
 
@@ -55,11 +55,12 @@
 .modalContainer .body {
   flex: 50%;
   display: flex;
+  margin-top: 1.5rem;
   justify-content: left;
   align-items: left;
   font-size: 1.5rem;
   text-align: left;
-  color: aliceblue;
+  color: rgb(8, 0, 14);
 }
 
 .modalContainer .footer {
@@ -72,9 +73,9 @@
 .modalContainer .footer button {
   width: 150px;
   height: 45px;
-  margin: 10px;
+  margin: 1.3rem;
   border: none;
-  background-color: rgb(204, 155, 219);
+  background-color: rgb(101, 75, 109);
   color: white;
   border-radius: 8px;
   font-size: 20px;
@@ -82,7 +83,12 @@
 }
 
 #cancelBtn {
-  background-color: rgb(216, 65, 95);
+  background-color: rgb(197, 43, 74);
 }
+
+.font-link {
+  font-family: 'Work Sans', sans-serif;
+}
+
 
 
