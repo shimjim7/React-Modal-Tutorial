@@ -1,13 +1,11 @@
 import React from "react";
 import "./Modal.css";
 import Slider from './Slider'
-
 function Modal({ setOpenModal }) {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
         <div className="titleCloseBtn">
-         
         </div>
         <div className="title">
           <h5 align = "left">Seminar Hall</h5>
